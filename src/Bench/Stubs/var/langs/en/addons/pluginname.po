@@ -1,0 +1,25 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "LanguageName"
+msgid "Localized language name"
+msgstr "English"
+
+msgctxt "Addons::name::pluginname"
+msgid "Example LS plugin"
+msgstr "Example LS plugin"
+
+msgctxt "Addons::description::pluginname"
+msgid "Description of plugin here. Developed by <a target=\"_blank\" href=\"https://lesniakswann.com/\">Lesniak Swann</a>."
+msgstr "Description of plugin here. Developed by <a target=\"_blank\" href=\"https://lesniakswann.com/\">Lesniak Swann</a>."
+
+msgctxt "SettingsSections::pluginname::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::pluginname::example_settings_value"
+msgid "Example setting"
+msgstr "Example setting"

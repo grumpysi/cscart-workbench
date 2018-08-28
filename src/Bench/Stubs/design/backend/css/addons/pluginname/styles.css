@@ -1,0 +1,11 @@
+#addon_pluginnameinstalled .bg-icon,
+#addon_pluginname .bg-icon {
+    background-image: url('../../../media/images/addons/pluginname/icon.png');
+    background-size: contain;
+    border: 0px;
+}
+
+#addon_pluginnameinstalled .bg-icon i,
+#addon_pluginname .bg-icon i {
+    display: none;
+}

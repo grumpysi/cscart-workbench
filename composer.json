@@ -1,0 +1,35 @@
+{
+    "name": "grumpysi/cscart-workbench",
+    "description": "Command-line workbench for CS-Cart addon development",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Simon Nicklin",
+            "email": "simon@njo.im"
+        }
+    ],
+    "bin": ["bin/bench"],
+    "require": {
+        "symfony/console": "^4.1",
+        "symfony/filesystem": "^4.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "GrumpySi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
